@@ -10,14 +10,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-Future<Response> getData() async 
-{
-  const authority = 'www.googleapis.com';
-  const path '/books/v1/volumes/junbDwAAQBAJ';
-  Uri url = uri.https(authority, path);
-  return http.get(url);
-}
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -40,6 +32,14 @@ class FuturePage extends StatefulWidget {
 
 class _FuturePageState extends State<FuturePage> {
   String result = '';
+
+  Future<Response> getData() async {
+    const authority = 'www.googleapis.com';
+    const path = '/books/v1/volumes/junbDwAAQBAJ';
+    Uri url = Uri.https(authority, path);
+    return http.get(url);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +48,21 @@ class _FuturePageState extends State<FuturePage> {
         child: Column(
           children: [
             const Spacer(),
-            ElevatedButton(child: const Text('GO!'), onPressed: () {}),
+            ElevatedButton(
+              child: const Text('GO!'),
+              onPressed: () {
+                setState(() {});
+                getData()
+                    .then((value) {
+                      result = value.body.toString().substring(0, 450);
+                      setState(() {});
+                    })
+                    .catchError((_) {
+                      result = 'An error occurred';
+                      setState(() {});
+                    });
+              },
+            ),
             const Spacer(),
             Text(result),
             const Spacer(),
