@@ -40,3 +40,14 @@ Langkah 6: Menangani hasil atau error dari proses async di UI.
 
 soal-4
 <img src="images/p3s4.gif">
+
+
+Praktikum 4
+soal-1
+<img src="images/p4s1.gif">
+
+soal-2
+FutureGroup: fleksibel dan dinamis.
+Future.wait: simpel dan langsung.
+
+Praktikum 5
