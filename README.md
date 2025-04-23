@@ -51,3 +51,9 @@ FutureGroup: fleksibel dan dinamis.
 Future.wait: simpel dan langsung.
 
 Praktikum 5
+soal-1
+<img src="images/p5s1.gif">
+
+soal-2
+Langkah 1 menyebabkan error,
+Langkah 4 menangani error tersebut.
