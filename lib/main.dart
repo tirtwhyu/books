@@ -1,4 +1,5 @@
 import 'package:async/async.dart';
+import 'package:books/geolocation.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
@@ -14,13 +15,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Future Demo',
+      title: 'Future Demo Wahyu Nayoga',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         appBarTheme: const AppBarTheme(backgroundColor: Colors.blue),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const FuturePage(),
+      home: LocationScreen(),
     );
   }
 }
@@ -120,7 +121,7 @@ class _FuturePageState extends State<FuturePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Back from the Future')),
+      appBar: AppBar(title: const Text('Back from the Future Wahyu Nayoga')),
       body: Center(
         child: Column(
           children: [

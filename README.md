@@ -57,3 +57,15 @@ soal-1
 soal-2
 Langkah 1 menyebabkan error,
 Langkah 4 menangani error tersebut.
+
+Praktikum 6
+soal-1
+Sudah dimasukkan
+
+soal-2
+Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+Tidak, Karena perizinan yang sebelumnya ditambahkan itu untuk android bukan untuk browser.
+
+soal-3
+<img src="images/p6s3.gif">
+
