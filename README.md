@@ -1,3 +1,5 @@
+Asynchronous di Flutter
+
 Praktikum 1
 soal-1
 sudah dimasukkan
@@ -21,3 +23,12 @@ Fungsi count() menjumlah hasil dari tiga fungsi async (1 + 2 + 3), lalu menampil
 
 soal-2
 <img src="images/p2s4.gif">
+
+Praktikum 3
+soal-1
+langkah 2
+Fungsi getNumber() memulai proses async calculate(), lalu menunggu hasilnya lewat Completer. Setelah 5 detik, calculate() mengembalikan nilai 42.
+
+soal-2
+<img src="images/p3s2.gif">
+
