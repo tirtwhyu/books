@@ -32,3 +32,11 @@ Fungsi getNumber() memulai proses async calculate(), lalu menunggu hasilnya lewa
 soal-2
 <img src="images/p3s2.gif">
 
+soal-3
+Perbedaan
+Langkah 2: Proses async dasar.
+Langkah 5: Tambah keamanan dengan menangani error.
+Langkah 6: Menangani hasil atau error dari proses async di UI.
+
+soal-4
+<img src="images/p3s4.gif">
