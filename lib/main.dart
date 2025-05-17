@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(backgroundColor: Colors.blue),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LocationScreen(),
+      home: Locationscreen(),
     );
   }
 }

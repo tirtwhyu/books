@@ -69,3 +69,12 @@ Tidak, Karena perizinan yang sebelumnya ditambahkan itu untuk android bukan untu
 soal-3
 <img src="images/p6s3.gif">
 
+Praktikum 7 
+soal-1
+<img src="images/p7s1.gif">
+Tidak ada perubahan
+
+soal-2
+<img src="images/p7s2.gif">
+Jika tidak Eror maka tidak ada perubahan, apabila Snapshot Eror maka akan muncul Teks 'Something terrible happened!'
+
